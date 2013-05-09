@@ -8,3 +8,4 @@ set :deploy_to, "/home/rubyviet/www/youtube"
 default_run_options[:pty] = true
 set :default_environment, {
   'PATH' => "/home/rubyviet/.rbenv/shims:/home/rubyviet/.rbenv/bin:$PATH"
+}

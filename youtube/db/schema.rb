@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130509100906) do
+ActiveRecord::Schema.define(:version => 20130509103524) do
 
   create_table "album_photos", :force => true do |t|
     t.integer  "photoable_id"

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Youtube::Application.config.secret_token = '7458d668d0a69b290ba2fcc03c04a2df39294dbdc0a6c7601c8c6d3a17e180cf9ec3f4929f82547cbd2bc8f13a73efafbf90f2ee8930443cdbc9b3d3b5280825'
+Youtube::Application.config.secret_token = '84e6f6d56e4b57f6085eb97a1ac96715d093be4334b26ca25024c17a0ab77df88382625d4cfc70f894010bbe0b6e9b61df082735025942c7ab6ff0794dcc36a6'
