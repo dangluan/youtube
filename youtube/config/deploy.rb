@@ -3,8 +3,8 @@ require 'capistrano/ext/multistage'
 
 default_run_options[:pty] = true
 set :keep_releases, 5
-set :application, "HP Star"
-set :repository,  "git@github.com:RubifyTechnology/youtube.git"
+set :application, "Youtube"
+set :repository,  "git@github.com:dangluan/youtube.git"
 set :scm, :git
 set :rake,  "bundle exec rake"
 set :stages, ["staging", "production"]
