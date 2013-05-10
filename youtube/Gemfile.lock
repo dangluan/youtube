@@ -146,6 +146,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cocaine
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
