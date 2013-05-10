@@ -39,4 +39,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'rmagick4j', '0.3.7'
-gem 'cocaine', '0.3.2'
+gem 'cocaine', '0.4.0'
