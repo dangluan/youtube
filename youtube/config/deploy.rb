@@ -1,6 +1,24 @@
 require 'bundler/capistrano'
 require 'capistrano/ext/multistage'
 
+module ::Capistrano
+  module Deploy
+    module Strategy
+      class RemoteCache < Remote
+        def copy_repository_cache
+          logger.trace "copying the cached version to #{configuration[:release_path]}"
+          if copy_exclude.empty?
+            directory = File.join(repository_cache, 'youtube')
+            run "cp -RPp #{directory} #{configuration[:release_path]} && #{mark}"
+          else
+            fail "not using in my deploy.rb"
+          end
+        end
+      end
+    end
+  end
+end
+
 default_run_options[:pty] = true
 set :keep_releases, 5
 set :application, "Youtube"
