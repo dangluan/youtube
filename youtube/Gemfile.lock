@@ -1,13 +1,13 @@
 GIT
   remote: git@github.com:dangluan/ruby_gallery.git
-  revision: 3896158a46e8ddc340ad0f80d00e90dbc783dff8
-  tag: v0.2.6
+  revision: 637af8544423c9d233559c9cd9778f5730e89665
+  tag: v0.2.7
   specs:
-    ruby_gallery (0.2.6)
+    ruby_gallery (0.2.7)
       bourbon
       compass-rails
       jquery-fileupload-rails
-      paperclip (~> 3.0)
+      paperclip (~> 3.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -45,7 +45,7 @@ GEM
       thor
     builder (3.0.4)
     chunky_png (1.2.8)
-    cocaine (0.4.0)
+    cocaine (0.3.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -81,7 +81,7 @@ GEM
     mime-types (1.23)
     multi_json (1.7.3)
     mysql2 (0.3.11)
-    paperclip (3.2.1)
+    paperclip (3.0.4)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -114,7 +114,6 @@ GEM
     rake (10.0.4)
     rdoc (3.12.2)
       json (~> 1.4)
-    rmagick4j (0.3.7)
     sass (3.2.8)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -144,12 +143,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cocaine (= 0.4.0)
+  cocaine (= 0.3.2)
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
   rails (= 3.2.13)
-  rmagick4j (= 0.3.7)
   ruby_gallery!
   sass-rails (~> 3.2.3)
   sqlite3
