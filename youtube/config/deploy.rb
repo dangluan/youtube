@@ -101,9 +101,7 @@ namespace :deploy do
     
     ## Copy file to the shared locales folder
     run "mkdir -p #{shared_path}/config/locales"
-    run "cp #{release_path}/config/locales/dynamic_form.en.yml #{shared_path}/config/locales"
     run "cp #{release_path}/config/locales/en.yml #{shared_path}/config/locales"
-    run "cp #{release_path}/config/locales/rubify_dashboard.en.yml #{shared_path}/config/locales"
     ## Remove locales folder and link it back from shared locales
     run "rm -rf #{release_path}/config/locales"
     run "ln -nfs #{shared_path}/config/locales #{release_path}/config/locales"
