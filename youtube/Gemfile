@@ -9,7 +9,7 @@ gem 'sqlite3'
 gem 'mysql2'
 gem 'unicorn'
 gem 'ruby_gallery' , git: "git@github.com:dangluan/ruby_gallery.git", tag: "v0.2.4"
-gem "cocaine", "= 0.3.2" 
+gem "cocaine", "~> 0.3.2" 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
