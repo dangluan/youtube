@@ -1,6 +1,6 @@
 require 'bundler/capistrano'
 require 'capistrano/ext/multistage'
-
+require 'capistrano/recipes/deploy/strategy/remote_cache'
 module ::Capistrano
   module Deploy
     module Strategy
