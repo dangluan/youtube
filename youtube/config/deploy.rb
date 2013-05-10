@@ -101,7 +101,6 @@ namespace :deploy do
     
     ## Copy file to the shared locales folder
     run "mkdir -p #{shared_path}/config/locales"
-    run "cp #{release_path}/config/locales/devise.en.yml #{shared_path}/config/locales"
     run "cp #{release_path}/config/locales/dynamic_form.en.yml #{shared_path}/config/locales"
     run "cp #{release_path}/config/locales/en.yml #{shared_path}/config/locales"
     run "cp #{release_path}/config/locales/rubify_dashboard.en.yml #{shared_path}/config/locales"
