@@ -91,10 +91,6 @@ namespace :deploy do
     run "rm -rf #{release_path}/config/locales"
     run "ln -nfs #{shared_path}/config/locales #{release_path}/config/locales"
     
-    ## link sale tools folder
-    run "mkdir -p #{shared_path}/sale_tools"
-    run "rm -rf #{release_path}/public/sale_tools"
-    run "ln -nfs #{shared_path}/sale_tools #{release_path}/public/sale_tools"
   end
   
   namespace :web do
