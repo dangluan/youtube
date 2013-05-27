@@ -1,0 +1,8 @@
+<%=@environment%>:
+ adapter: mysql2
+ database: <%= @name %>_<%= @environment %>
+ username: root
+ password:
+ pool: 5
+ reconnect: false
+ encoding: utf8
